@@ -20,27 +20,6 @@ A professional and powerful WhatsApp bot framework built on Baileys. Create soph
 
 ---
 
-## Installation
-
-```bash
-npm install github:ramez000/kn
-```
-
-## Quick Start
-
-```javascript
-import { Client } from 'Kintoun';
-
-const bot = new Client({
-  phoneNumber: "249962416396",
-  prefix: ["!", "."],
-  owners: [1234567890@s.whatsapp.net"]
-});
-
-await bot.start();
-```
-
-
 ### Contact Developer
 
 For questions, support, or collaboration, feel free to contact the developer:
